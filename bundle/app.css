@@ -531,20 +531,20 @@ body {
           -ms-flex-pack: center;
               justify-content: center;
     }
-    .iphone-demo {
+    .iphone-demo{
       -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
           -ms-flex-positive: 1;
               flex-grow: 1;
-      background-color: rgba(255,0,0,0.3);
+      /*background-color: rgba(255,0,0,0.3);*/
     }
 
-    .feature-description {
+    .feature-description{
       -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
           -ms-flex-positive: 1;
               flex-grow: 1;
-      background-color: rgba(0,255,0,0.3);
+      /*background-color: rgba(0,255,0,0.3);*/
     }
     .demo3{
       -webkit-flex-basis:auto;
@@ -555,4 +555,72 @@ body {
       -webkit-flex-basis:0;
           -ms-flex-preferred-size:0;
               flex-basis:0;
+    }
+    .tumblr-demo{
+      position: absolute;
+      top: 90px;
+      left: 25px;
+    }
+    .iphone-frame{
+      width: 300;
+      height: 630;
+    }
+    #android-robot{
+      position: absolute;
+      top: 84%;
+      left: 102%;
+      -webkit-transform: rotate(-45deg) translate(-50%, -50%);
+          -ms-transform: rotate(-45deg) translate(-50%, -50%);
+              transform: rotate(-45deg) translate(-50%, -50%);
+    }
+    .last{
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      overflow: hidden;
+    }
+    #slider-control {
+      position: fixed;
+      top: 40%;
+      left: 100%;
+      padding: 10px;
+      -webkit-transform: translate(-100%);
+          -ms-transform: translate(-100%);
+              transform: translate(-100%);
+    }
+    #slider-control a {
+      padding: 3px;
+    }
+    #slider-control .dot {
+      width: 16px;
+      height: 16px;
+      border: 1px solid #fff;
+      border-radius: 8px;
+    }
+    #slider-control .active .dot {
+      background-color: #fff;
+    }
+    #intro-section {
+      background-image: url(../img/background.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+    .overlay{
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      background-image: -webkit-linear-gradient(rgba(255, 0, 0, 0);rgba(31, 30, 52, 1));
+      background-image: linear-gradient(rgba(255, 0, 0, 0);rgba(31, 30, 52, 1));
     }

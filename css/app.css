@@ -64,18 +64,71 @@ body {
     .demo2{
       justify-content: center;
     }
-    .iphone-demo {
+    .iphone-demo{
       flex-grow: 1;
-      background-color: rgba(255,0,0,0.3);
+      /*background-color: rgba(255,0,0,0.3);*/
     }
 
-    .feature-description {
+    .feature-description{
       flex-grow: 1;
-      background-color: rgba(0,255,0,0.3);
+      /*background-color: rgba(0,255,0,0.3);*/
     }
     .demo3{
       flex-basis:auto;
     }
     .demo3 .iphone-demo ,.demo3 .feature-description{
       flex-basis:0;
+    }
+    .tumblr-demo{
+      position: absolute;
+      top: 90px;
+      left: 25px;
+    }
+    .iphone-frame{
+      width: 300;
+      height: 630;
+    }
+    #android-robot{
+      position: absolute;
+      top: 84%;
+      left: 102%;
+      transform: rotate(-45deg) translate(-50%, -50%);
+    }
+    .last{
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    #slider-control {
+      position: fixed;
+      top: 40%;
+      left: 100%;
+      padding: 10px;
+      transform: translate(-100%);
+    }
+    #slider-control a {
+      padding: 3px;
+    }
+    #slider-control .dot {
+      width: 16px;
+      height: 16px;
+      border: 1px solid #fff;
+      border-radius: 8px;
+    }
+    #slider-control .active .dot {
+      background-color: #fff;
+    }
+    #intro-section {
+      background-image: url(../img/background.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+    .overlay{
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(rgba(255, 0, 0, 0);rgba(31, 30, 52, 1));
     }

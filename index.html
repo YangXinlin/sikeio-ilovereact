@@ -12,9 +12,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <div class="section column demo">
+    <div class="section column demo" id="intro-section">
+        <div class="overlay"></div>
         <img class="react-logo" src="img/react-logo.svg"/>
-        <h1>Build Native Apps With React!</h1>
+        <h1 style="z-index:0;">Build Native Apps With React!</h1>
         <div class="nav row">
             <a href="#native">Native iOS</a>
             <a href="#touch">Touch Handling</a>
@@ -24,9 +25,13 @@
     </div>
     <div class="section row demo3">
         <div class="iphone-demo demo">
-          <img src="img/iphone-frame.svg"/>
+          <div class="iphone-frame">
+            <img src="img/iphone-frame.svg"/>
+            <div class="tumblr-demo">
+              <img src="img/tumblr-demo.jpg"/>
+            </div>
+          </div>
         </div>
-
         <div class="feature-description demo2">
           <h2>Native Experience</h2>
           <p>
@@ -39,7 +44,12 @@
 
     <div class="section row demo3">
         <div class="iphone-demo demo">
-          <img src="img/iphone-frame.svg"/>
+          <div class="iphone-frame">
+            <img src="img/iphone-frame.svg"/>
+            <div class="tumblr-demo">
+              <img src="img/swype-demo.jpg"/>
+            </div>
+          </div>
         </div>
 
         <div class="feature-description demo2">
@@ -52,8 +62,24 @@
         </div>
     </div>
 
-    <div class="section column demo">
+    <div class="section column demo last">
         <h1>Android Is Here</h1>
+        <img id="android-robot" src="img/android-robot.svg"/>
+    </div>
+
+    <div id="slider-control">
+      <a href="#native" class="active">
+        <div class="dot"></div>
+      </a>
+      <a href="#touch">
+        <div class="dot"></div>
+      </a>
+      <a href="#async">
+        <div class="dot"></div>
+      </a>
+      <a href="#flex">
+        <div class="dot"></div>
+      </a>
     </div>
 
   </body>
