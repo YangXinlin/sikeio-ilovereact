@@ -7,5 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
+<<<<<<< HEAD
   "license": "ISC"
+=======
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.9.3",
+    "gsap": "^1.18.0",
+    "normalize.css": "^3.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.0.2",
+    "postcss-cli": "^2.1.0",
+    "postcss-import": "^7.0.0"
+  }
+>>>>>>> 5a44dcf34a77e9a5201dbdacdf460221624f593e
 }
